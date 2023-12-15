@@ -1,0 +1,9 @@
+<div class="container card faq">
+    <h1>FAQs</h1>   
+    @for (tab of card_content) {
+        <app-card-tab
+        [data]="tab"
+        >
+        </app-card-tab>
+    }
+</div>

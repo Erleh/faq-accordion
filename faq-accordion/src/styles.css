@@ -1,0 +1,34 @@
+:root {
+    --clr-bg-100: hsl(0, 0%, 100%);
+    
+    --clr-pm-200: hsl(275, 100%, 97%);
+    --clr-pm-400: hsl(292, 16%, 49%);
+    --clr-pm-500: hsl(292, 42%, 14%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-pm-200);
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.card {
+    background: var(--clr-bg-100);
+    border-radius: .5rem;
+    padding: 1rem;
+}
