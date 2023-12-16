@@ -1,0 +1,40 @@
+.card-tab {
+    flex-direction: column;
+}
+
+.card-tab .tab-label {
+    margin: 0;
+    justify-content: space-between;    
+}
+
+.tab-label h3{
+    margin: 1rem 0;
+}
+
+.tab-label a {
+    align-self: center;
+    color: white;
+    padding: .3rem .5rem;
+    margin-left: 1rem; 
+    border-radius: 5rem;
+    background-color: var(--clr-hl-300);
+}
+
+.tab-label a:hover {
+    background-color: var(--clr-pm-400);
+    cursor: pointer;
+}
+
+.card-tab .tab-content {
+    padding: 1rem 0;
+    color: var(--clr-pm-400);
+}
+
+.tab-content {
+    transition-property: height;
+    transition-duration: .5s;
+}
+
+.tab-divider {
+    border: 1px solid var(--clr-pm-200);
+}

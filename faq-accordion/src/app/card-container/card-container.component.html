@@ -1,9 +1,9 @@
 <div class="container card faq">
-    <h1>FAQs</h1>   
-    @for (tab of card_content) {
-        <app-card-tab
-        [data]="tab"
-        >
-        </app-card-tab>
-    }
+    <h1>FAQs</h1>
+    <app-card-tab 
+        *ngFor="let tab of card_content; last as isLast"
+        [data]="{title: tab.title, content: tab.content}"
+        [isLast] = "isLast"
+    >
+    </app-card-tab>
 </div>

@@ -1,5 +1,8 @@
 <div class="container card-tab">
-    <h3>{{this.data.title}}</h3>
-    <a>+</a>
-    <p>{{this.data.content}}</p>
+    <div class="container tab-label">
+        <h3>{{this.data.title}}</h3>
+        <a (click)="handleClick()">{{!this.showContent ? "+" : "-"}}</a>
+    </div>
+    <p *ngIf="showContent" class="tab-content">{{this.data.content}}</p>
 </div>
+<hr *ngIf="!isLast" class="tab-divider">
