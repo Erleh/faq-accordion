@@ -1,5 +1,8 @@
 <div class="container card faq">
-    <h1>FAQs</h1>
+    <div class="container title">
+        <img src="../../assets/images/icon-star.svg">
+        <h1>FAQs</h1>
+    </div>
     <app-card-tab 
         *ngFor="let tab of card_content; last as isLast"
         [data]="{title: tab.title, content: tab.content}"

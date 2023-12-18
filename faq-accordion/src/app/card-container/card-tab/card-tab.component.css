@@ -11,6 +11,11 @@
     margin: 1rem 0;
 }
 
+.tab-label h3:hover {
+    color: var(--clr-hl-300);
+    cursor: pointer;
+}
+
 .tab-label a {
     align-self: center;
     color: white;
@@ -23,6 +28,10 @@
 .tab-label a:hover {
     background-color: var(--clr-pm-400);
     cursor: pointer;
+}
+
+.tab-label .selected {
+    background-color: var(--clr-pm-500);
 }
 
 .card-tab .tab-content {
@@ -38,3 +47,4 @@
 .tab-divider {
     border: 1px solid var(--clr-pm-200);
 }
+

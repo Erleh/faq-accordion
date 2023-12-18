@@ -3,3 +3,27 @@
     padding: 2rem;
     flex-direction: column;
 }
+
+.title {
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title img {
+    width: 2rem;
+}
+
+svg{
+    color: blue;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .faq {
+        max-width: 50rem;
+    }
+}
