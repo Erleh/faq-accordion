@@ -1,7 +1,7 @@
 <div class="container card-tab">
     <div class="container tab-label">
         <h3 (click)="handleClick()">{{this.data.title}}</h3>
-        <a (click)="handleClick()" [ngClass]="{'selected': this.showContent}">{{!this.showContent ? "+" : "-"}}</a>
+        <a role="button" tabindex="0" (keypress)="handleKeypress($event)" (click)="handleClick()" [ngClass]="{'selected': this.showContent}">{{!this.showContent ? "+" : "-"}}</a>
     </div>
     <p *ngIf="showContent" class="tab-content">{{this.data.content}}</p>
 </div>

@@ -13,6 +13,13 @@ export class CardTabComponent {
 
   handleClick() {
     this.showContent = !this.showContent;
-    console.log(this.showContent);
+  }
+
+  handleKeypress(event: KeyboardEvent) {
+    if (event.type === 'keypress') {
+      if (event.key === ' ') {
+        this.handleClick();
+      }
+    }
   }
 }
