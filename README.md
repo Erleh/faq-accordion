@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/Erleh/faq-accordion
+- Live Site URL: https://erleh.github.io/faq-accordion/
 
 ## My process
 
@@ -24,7 +24,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Angular] - Angular Framework
+- [Angular]
 
 ### What I learned
 
